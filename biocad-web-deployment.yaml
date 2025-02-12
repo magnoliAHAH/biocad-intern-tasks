@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: biocad-web
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: biocad-web
+  template:
+    metadata:
+      labels:
+        app: biocad-web
+    spec:
+      containers:
+      - name: biocad-web
+        image: sos1ska/biocad-web:latest
+        ports:
+        - containerPort: 32777
