@@ -13,7 +13,10 @@ cd biocad-intern-tasks
 
 
 ## ✅ Успешный запуск
+Запуск скрипта и проверка балансировки
+![рабочая балансировка](https://github.com/user-attachments/assets/603e1384-a24e-4429-80d1-8b426f1be163)
 
+Пример веб интерфейса
 ![image](https://github.com/user-attachments/assets/f03b47d4-0688-44f0-9ca0-98c63807d67d)
 
 
